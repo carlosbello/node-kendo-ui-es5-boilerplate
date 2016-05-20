@@ -1,2 +1,3 @@
-# spacehack-refugee-prep-kendoui
-Spacehack "The Refugee Journey" hackathon preparation using kendoui
+# Spacehack "The Refugee Journey" hackathon preparation using kendoui
+
+Boilerplate project using kendoui
