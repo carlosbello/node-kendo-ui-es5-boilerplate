@@ -1,10 +1,11 @@
+/*  */
 'use strict';
 var express = require('express');
 var models = require('../models');
 
 var router = express.Router();
 
-router.get('/tasks', function(req, res) {
+router.get('/tasks', function (req, res) {
   models.Task.findAll().then(function (tasks) {
     res.json(tasks);
   });
